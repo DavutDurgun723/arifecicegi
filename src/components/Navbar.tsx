@@ -59,7 +59,7 @@ export default function Navbar() {
                   scrolled ? "text-cyan-600" : "text-cyan-200"
                 }`}
               >
-                Eğitim & Kültür Derneği
+                Sosyal Yardım Eğitim ve Araştırma Derneği
               </div>
             </div>
           </button>
