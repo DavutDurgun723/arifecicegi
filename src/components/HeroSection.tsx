@@ -63,7 +63,7 @@ export default function HeroSection() {
       <Star className="absolute bottom-[30%] left-[30%] text-amber-300/25 w-5 h-5" />
 
       {/* Content */}
-      <div ref={ref} className="relative z-10 text-center max-w-4xl mx-auto px-4">
+      <div ref={ref} className="relative z-10 text-center max-w-4xl mx-auto px-4 pt-24 sm:pt-0">
         <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-5 py-2 mb-8"
           style={{ animation: "slide-up 0.8s ease 0.2s both" }}>
           <Heart className="w-4 h-4 text-amber-300" />
@@ -84,7 +84,7 @@ export default function HeroSection() {
         </h1>
         <p className="text-cyan-200 text-lg sm:text-xl mb-2 font-medium"
           style={{ animation: "slide-up 0.8s ease 0.75s both" }}>
-          Eğitim, Kültür ve Yardımlaşma Derneği
+          Sosyal Yardım Eğitim ve Araştırma Derneği
         </p>
 
         <div className="my-8 relative" style={{ animation: "slide-up 0.8s ease 0.9s both" }}>
