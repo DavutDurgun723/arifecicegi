@@ -12,7 +12,7 @@
   --foreground:    #0c1a2e;
 }
 
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; background-color: #0a3447; }
 
 body {
   background: transparent;
