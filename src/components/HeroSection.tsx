@@ -100,14 +100,14 @@ export default function HeroSection() {
           Allah rızası için salih amel işlemeyi, ilmi yaymayı ve ihtiyaç sahiplerine ulaşmayı kendimize hedef edinen gönüllü bir dayanışma topluluğuyuz.
         </p>
 
-        <div className="flex flex-col sm:flex-row gap-4 justify-center"
+        <div className="flex flex-row gap-3 justify-center"
           style={{ animation: "slide-up 0.8s ease 1.2s both" }}>
           <button onClick={() => document.querySelector("#hakkimizda")?.scrollIntoView({ behavior: "smooth" })}
-            className="px-8 py-4 bg-white/20 backdrop-blur-sm border-2 border-white/60 text-white font-semibold rounded-full hover:bg-white/30 transition-all duration-300 text-sm sm:text-base">
+            className="px-5 py-3 sm:px-8 sm:py-4 bg-white/20 backdrop-blur-sm border-2 border-white/60 text-white font-semibold rounded-full hover:bg-white/30 transition-all duration-300 text-sm sm:text-base">
             Bizi Tanıyın
           </button>
           <button onClick={() => document.querySelector("#iletisim")?.scrollIntoView({ behavior: "smooth" })}
-            className="px-8 py-4 bg-gradient-to-r from-cyan-600 to-cyan-400 text-white font-semibold rounded-full shadow-lg hover:shadow-cyan-500/40 hover:scale-105 transition-all duration-300 text-sm sm:text-base">
+            className="px-5 py-3 sm:px-8 sm:py-4 bg-gradient-to-r from-cyan-600 to-cyan-400 text-white font-semibold rounded-full shadow-lg hover:shadow-cyan-500/40 hover:scale-105 transition-all duration-300 text-sm sm:text-base">
             Gönüllü Ol
           </button>
         </div>
