@@ -26,7 +26,7 @@ export default function PageBackground() {
         className="absolute inset-0"
         style={{
           background:
-            "linear-gradient(180deg, #022c22 0%, #064e3b 8%, #ffffff 22%, #f9fafb 45%, #ecfdf5 60%, #f9fafb 72%, #064e3b 88%, #022c22 100%)",
+            "linear-gradient(180deg, #0a3447 0%, #0e7490 8%, #ffffff 22%, #f9fafb 45%, #f0f9ff 60%, #f9fafb 72%, #0e7490 88%, #0a3447 100%)",
         }}
       />
 
@@ -45,14 +45,14 @@ export default function PageBackground() {
       >
         <svg viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
           {/* Dış çember halkalar */}
-          <circle cx="200" cy="200" r="195" stroke="#10b981" strokeWidth="0.5" />
-          <circle cx="200" cy="200" r="180" stroke="#10b981" strokeWidth="0.3" />
+          <circle cx="200" cy="200" r="195" stroke="#22d3ee" strokeWidth="0.5" />
+          <circle cx="200" cy="200" r="180" stroke="#22d3ee" strokeWidth="0.3" />
           <circle cx="200" cy="200" r="160" stroke="#d4a017" strokeWidth="0.5" />
-          <circle cx="200" cy="200" r="140" stroke="#10b981" strokeWidth="0.3" />
-          <circle cx="200" cy="200" r="120" stroke="#10b981" strokeWidth="0.5" />
+          <circle cx="200" cy="200" r="140" stroke="#22d3ee" strokeWidth="0.3" />
+          <circle cx="200" cy="200" r="120" stroke="#22d3ee" strokeWidth="0.5" />
           <circle cx="200" cy="200" r="90"  stroke="#d4a017" strokeWidth="0.5" />
-          <circle cx="200" cy="200" r="60"  stroke="#10b981" strokeWidth="0.3" />
-          <circle cx="200" cy="200" r="30"  stroke="#10b981" strokeWidth="0.5" />
+          <circle cx="200" cy="200" r="60"  stroke="#22d3ee" strokeWidth="0.3" />
+          <circle cx="200" cy="200" r="30"  stroke="#22d3ee" strokeWidth="0.5" />
 
           {/* 16 uzun ışın */}
           {Array.from({ length: 16 }).map((_, i) => {
@@ -61,7 +61,7 @@ export default function PageBackground() {
             const y2 = (200 + 195 * Math.sin(angle)).toFixed(3);
             return (
               <line key={i} x1="200" y1="200" x2={x2} y2={y2}
-                stroke="#10b981" strokeWidth="0.3" />
+                stroke="#22d3ee" strokeWidth="0.3" />
             );
           })}
 
@@ -72,7 +72,7 @@ export default function PageBackground() {
             const cy = (200 + 155 * Math.sin(a)).toFixed(2);
             return (
               <ellipse key={i} cx={cx} cy={cy} rx="28" ry="14"
-                stroke="#10b981" strokeWidth="0.6" fill="none"
+                stroke="#22d3ee" strokeWidth="0.6" fill="none"
                 transform={`rotate(${i * 45 + 90}, ${cx}, ${cy})`} />
             );
           })}
@@ -96,7 +96,7 @@ export default function PageBackground() {
             const cy = (200 + 65 * Math.sin(a)).toFixed(2);
             return (
               <ellipse key={i} cx={cx} cy={cy} rx="12" ry="6"
-                stroke="#10b981" strokeWidth="0.5" fill="none"
+                stroke="#22d3ee" strokeWidth="0.5" fill="none"
                 transform={`rotate(${i * 30 + 90}, ${cx}, ${cy})`} />
             );
           })}
@@ -112,7 +112,7 @@ export default function PageBackground() {
             );
           })}
           <circle cx="200" cy="200" r="8" stroke="#d4a017" strokeWidth="1" fill="none" />
-          <circle cx="200" cy="200" r="3" fill="#10b981" opacity="0.5" />
+          <circle cx="200" cy="200" r="3" fill="#22d3ee" opacity="0.5" />
 
           {/* Köşe arabesk süslemeleri */}
           {Array.from({ length: 4 }).map((_, i) => {
@@ -122,7 +122,7 @@ export default function PageBackground() {
             return (
               <g key={i}>
                 <circle cx={cx} cy={cy} r="12" stroke="#d4a017" strokeWidth="0.6" fill="none" />
-                <circle cx={cx} cy={cy} r="6"  stroke="#10b981" strokeWidth="0.4" fill="none" />
+                <circle cx={cx} cy={cy} r="6"  stroke="#22d3ee" strokeWidth="0.4" fill="none" />
               </g>
             );
           })}
@@ -153,7 +153,7 @@ export default function PageBackground() {
                 transform={`rotate(${i * 30 + 90}, ${cx}, ${cy})`} />
             );
           })}
-          <circle cx="100" cy="100" r="90" stroke="#10b981" strokeWidth="0.4" />
+          <circle cx="100" cy="100" r="90" stroke="#22d3ee" strokeWidth="0.4" />
           <circle cx="100" cy="100" r="60" stroke="#d4a017" strokeWidth="0.4" />
         </svg>
       </div>
@@ -173,7 +173,7 @@ export default function PageBackground() {
             opacity: 0.12,
           }}
         >
-          <svg viewBox="0 0 20 20" fill="#10b981" xmlns="http://www.w3.org/2000/svg">
+          <svg viewBox="0 0 20 20" fill="#22d3ee" xmlns="http://www.w3.org/2000/svg">
             <ellipse cx="10" cy="10" rx="4" ry="9"
               transform="rotate(30 10 10)" />
             <ellipse cx="10" cy="10" rx="4" ry="9"
